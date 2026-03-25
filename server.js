@@ -21,8 +21,8 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "http://http://localhost:5173/",
-      "https://de-sons-voice.vercel.app",
+      "https://de-sons-voice-primary.vercel.app",
+      
     ],
     credentials: true, // allows sending cookies
   })
